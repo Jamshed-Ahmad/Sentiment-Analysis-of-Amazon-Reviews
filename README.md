@@ -20,9 +20,9 @@ Predict sentiment for new/unseen Amazon reviews.<br>
 ## 📊 Model Performance & Accuracy <br>
 | Model | Accuracy |
 |-------|---------------------|
-Logistic Regression | 83.0% <br>
-SVM | 85.0% ✅ (Best Model)<br>
-Decision Tree | 77.0% <br> 
+Logistic Regression | 91.40% <br>
+Random Forest | 89.20% <br>
+Gradient Boosting | 92.20% ✅ (Best Model)<br> 
 
 🔹 Support Vector Machine achieved the highest accuracy (85.0%), making it the optimal choice for predictions. <br>
 
