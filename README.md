@@ -1,28 +1,23 @@
 # Sentiment-Analysis-of-Amazon-Reviews - A Machine Learning Approach
 
-## 🔍 Project Overview <br>
+## 📝 Project Description <br>
 This project focuses on performing sentiment analysis on Amazon product reviews to classify them as positive or negative. Using Natural Language Processing (NLP) techniques and machine learning models, this project aims to understand customer feedback and draw insights from textual review data. <br>
 🚀 Can machine learning help detect heart disease early? This project dives into predictive analytics, using real-world clinical data to assess heart disease risk. By leveraging data science, feature engineering, and model optimization, we aim to identify key health risk factors and build an accurate, explainable prediction model.<br>
 
 
-## 📌 Key Features & Methodology<br>
-✅ Exploratory Data Analysis (EDA) – Understanding trends, patterns, and distributions 📊 <br>
-✅ Data Preprocessing – Handling missing values, encoding categorical features, and scaling numerical data 🛠 <br>
-✅ Feature Selection – Choosing relevant features for optimal model performance 🏗 <br>
-✅ Model Comparison – Evaluating Linear Regression, SVM, and Decision Tree 🔄 <br>
-✅ Best Model Selection – Support Vector Machine performed the best with the highest accuracy 85.0% 🎯 <br>
-✅ Dynamic Feature Input – No predefined lists; values are picked directly from the dataset 🏷 <br>
-✅ Gradio-Based Web Interface – User-friendly web app for Hear Disease Prediction <br>
+## 📊 Problem Statement<br>
+Customer reviews provide valuable insights into product satisfaction, but manually analyzing large volumes of text is inefficient. This project aims to automate the process of classifying reviews based on sentiment using supervised learning techniques. <br>
 
-## 📂 Dataset & Features <br>
-The dataset contains various attributes affecting house prices, including: <br>
-| Feature Name | Description |
-|--------------|-------------| 
-Age | Older individuals are more at risk <br>
-Sex | Gender influences risk factors <br>
-ChestPainType | Type of chest pain indicates potential heart issues <br>
-RestingBP | High blood pressure is a risk factor <br>
-Cholesterol |High cholesterol levels are associated with heart disease <br>
+## 🧠 Key Objectives <br>
+Preprocess and clean the text data.<br>
+Visualize the most common words in positive and negative reviews.<br>
+Transform text using techniques like TF-IDF.<br>
+Train machine learning models such as:<br>
+1. Logistic Regression<br>
+2. Random Forest<br>
+3. Gradient Boosting<br>
+Evaluate models based on accuracy, precision, recall, and F1-score.<br>
+Predict sentiment for new/unseen Amazon reviews.<br>
 
 ## 📊 Model Performance & Accuracy <br>
 | Model | Accuracy |
@@ -32,6 +27,17 @@ SVM | 85.0% ✅ (Best Model)<br>
 Decision Tree | 77.0% <br> 
 
 🔹 Support Vector Machine achieved the highest accuracy (85.0%), making it the optimal choice for predictions. <br>
+
+## 🛠️ Tools & Technologies <br>
+* Python<br>
+* Pandas, NumPy – Data handling<br>
+* Matplotlib, Seaborn – Data visualization<br>
+* NLTK, re (regex) – Text preprocessing<br>
+* Scikit-learn – ML model building and evaluation<br>
+* WordCloud – Visualizing word frequency <br>
+
+## 🤝 Acknowledgements <br>
+This project is part of my data science portfolio to demonstrate NLP and machine learning skills. The dataset is sourced from Amazon product reviews for educational purposes.<br>
 
 ## 🚀 How to Run the Project <br>
 ### 1️⃣ Running the Jupyter Notebook
@@ -49,7 +55,7 @@ Decision Tree | 77.0% <br>
 or, if using Jupyter Notebook: <br>
 `!gradio app.py`. 
 
-The Gradio interface will launch in your browser, allowing you to predict house prices dynamically. 
+The Gradio interface will launch in your browser, allowing you to Sentimen Analysis dynamically. 
 
 ###🌟 Future Enhancements
 🔹 Improve accuracy with advanced ensemble models 🏆.
