@@ -2,8 +2,6 @@
 
 ## 📝 Project Description <br>
 This project focuses on performing sentiment analysis on Amazon product reviews to classify them as positive or negative. Using Natural Language Processing (NLP) techniques and machine learning models, this project aims to understand customer feedback and draw insights from textual review data. <br>
-🚀 Can machine learning help detect heart disease early? This project dives into predictive analytics, using real-world clinical data to assess heart disease risk. By leveraging data science, feature engineering, and model optimization, we aim to identify key health risk factors and build an accurate, explainable prediction model.<br>
-
 
 ## 📊 Problem Statement<br>
 Customer reviews provide valuable insights into product satisfaction, but manually analyzing large volumes of text is inefficient. This project aims to automate the process of classifying reviews based on sentiment using supervised learning techniques. <br>
